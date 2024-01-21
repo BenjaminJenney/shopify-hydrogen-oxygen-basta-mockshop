@@ -1,4 +1,4 @@
-import {useNonce} from '@shopify/hydrogen';
+import {useNonce, Seo} from '@shopify/hydrogen';
 import {
   defer,
   type SerializeFrom,
@@ -118,6 +118,7 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <Seo />
         <Meta />
         <Links />
       </head>
